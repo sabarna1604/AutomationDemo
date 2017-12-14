@@ -3,63 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.admatic_51.emptytemplate.MainActivity">
+    tools:context="com.example.admatic_51.emptytemplate.Activity.MainActivity">
 
 
      <Button  android:id="@+id/screen1_c8_button1"
-              android:layout_width="200dp"
-              android:layout_height="50dp"
+              android:layout_width="164dp"
+              android:layout_height="40dp"
 			  android:text="Submit"
-              android:layout_marginLeft="50dp"
-              android:layout_marginTop="350dp" />
- <ImageView  android:id="@+id/screen1_c7_imageView1"
-              android:layout_width="200dp"
-              android:layout_height="100dp"
-			  android:src="@drawable/image"
-              android:layout_marginLeft="50dp"
-              android:layout_marginTop="250dp" />
-<CheckBox  android:id="@+id/screen1_c6_checkBox1"
-              android:layout_width="200dp"
-              android:layout_height="50dp"
-			  android:text="single"
-			  android:checked="false"
-              android:layout_marginLeft="50dp"
-              android:layout_marginTop="200dp" />
-<RadioGroup
-      android:layout_width="match_parent"
-      android:layout_height="50dp"
-      android:layout_marginTop="150dp"
-	  android:layout_marginLeft="50dp"
-      android:id="@+id/screen1_c3_radioGroup1"
-	  android:orientation="horizontal">
-<RadioButton
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-		android:text="Male"
-        android:id="@+id/screen1_c5_radioButton2"
-         android:checked="false" />
-<RadioButton
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-		android:text="Female"
-        android:id="@+id/screen1_c4_radioButton1"
-         android:checked="false" />
-   
-     
-   </RadioGroup>
-
+              android:layout_marginLeft="159dp"
+              android:layout_marginTop="382dp" />
    <EditText  android:id="@+id/screen1_c2_editText1"
-              android:layout_width="200dp"
-              android:layout_height="50dp"
-			  android:hint="name"
-              android:layout_marginLeft="50dp"
-              android:layout_marginTop="100dp" />
+              android:layout_width="181dp"
+              android:layout_height="38dp"
+			  android:hint="Age"
+              android:layout_marginLeft="147dp"
+              android:layout_marginTop="304dp" />
    <TextView  android:id="@+id/screen1_c1_textview1"
-              android:layout_width="200dp"
-              android:layout_height="50dp"
-			  android:text="welcome"
-              android:layout_marginLeft="50dp"
-              android:layout_marginTop="50dp" />
+              android:layout_width="175dp"
+              android:layout_height="40dp"
+			  android:text="Name"
+              android:layout_marginLeft="146dp"
+              android:layout_marginTop="228dp" />
 
 
 
@@ -68,8 +32,28 @@
 
 
 
-     
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
