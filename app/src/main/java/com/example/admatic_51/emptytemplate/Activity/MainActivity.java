@@ -117,7 +117,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-
         // register GCM registration complete receiver
         LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
                 new IntentFilter(Config.REGISTRATION_COMPLETE));
@@ -160,5 +159,4 @@ public class MainActivity extends AppCompatActivity {
     }
         return(super.onOptionsItemSelected(item));
     }
-
 }
