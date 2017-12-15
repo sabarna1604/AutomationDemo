@@ -49,10 +49,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-           
 
 
-          
+
+
+
+
 
 
 
@@ -92,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Toast.makeText(getApplicationContext(), "Push notification: " + message, Toast.LENGTH_LONG).show();
 
-                    txtMessage.setText(message);
+//                    txtMessage.setText(message);
                 }
             }
         };
@@ -107,11 +109,10 @@ public class MainActivity extends AppCompatActivity {
         String regId = pref.getString("regId", null);
 
         Log.e(TAG, "Firebase reg id: " + regId);
-
-        if (!TextUtils.isEmpty(regId))
-            txtRegId.setText("Firebase Reg Id: " + regId);
+       /* if (!TextUtils.isEmpty(regId))
+//            txtRegId.setText("Firebase Reg Id: " + regId);
         else
-            txtRegId.setText("Firebase Reg Id is not received yet!");
+//            txtRegId.setText("Firebase Reg Id is not received yet!");*/
     }
 
     @Override
