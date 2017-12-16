@@ -6,41 +6,63 @@
     tools:context="com.example.admatic_51.emptytemplate.Activity.MainActivity">
 
 
-     <Button  android:id="@+id/screen1_c8_button1"
-              android:layout_width="164dp"
-              android:layout_height="40dp"
+<RadioGroup
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginTop="300dp"
+	  android:layout_marginLeft="48dp"
+      android:id="@+id/screen1_c1_radioGroup1"
+	  android:orientation="horizontal">
+<RadioButton
+        android:layout_width="100dp"
+        android:layout_height="29dp"
+		android:text="Married"
+        android:id="@+id/screen1_c5_radio2"
+         android:checked="false" />
+<RadioButton
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+		android:text="Single"
+        android:id="@+id/screen1_c4_radio1"
+         android:checked="true" />
+   
+   
+   
+   
+   
+   
+   </RadioGroup>
+
+     <Button  android:id="@+id/screen1_c3_Button2"
+              android:layout_width="168dp"
+              android:layout_height="43dp"
+			  android:text="Confirm"
+              android:layout_marginLeft="18dp"
+              android:layout_marginTop="250dp" />
+     <Button  android:id="@+id/screen1_c3_Button1"
+              android:layout_width="168dp"
+              android:layout_height="43dp"
 			  android:text="Submit"
-              android:layout_marginLeft="159dp"
-              android:layout_marginTop="382dp" />
-   <EditText  android:id="@+id/screen1_c2_editText1"
+              android:layout_marginLeft="15dp"
+              android:layout_marginTop="200dp" />
+   <EditText  android:id="@+id/screen1_c2_EditText2"
               android:layout_width="181dp"
-              android:layout_height="38dp"
-			  android:hint="Age"
-              android:layout_marginLeft="147dp"
-              android:layout_marginTop="304dp" />
-   <TextView  android:id="@+id/screen1_c1_textview1"
-              android:layout_width="175dp"
-              android:layout_height="40dp"
+              android:layout_height="46dp"
+			  android:hint="Password"
+              android:layout_marginLeft="18dp"
+              android:layout_marginTop="150dp" />
+   <EditText  android:id="@+id/screen1_c2_EditText1"
+              android:layout_width="181dp"
+              android:layout_height="46dp"
+			  android:hint="AGE"
+              android:layout_marginLeft="16dp"
+              android:layout_marginTop="100dp" />
+   <TextView  android:id="@+id/screen1_c1_TextView1"
+              android:layout_width="176dp"
+              android:layout_height="48dp"
 			  android:text="Name"
-              android:layout_marginLeft="146dp"
-              android:layout_marginTop="228dp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              android:layout_marginLeft="13dp"
+              android:layout_marginTop="52dp" />
 
 
 
