@@ -21,13 +21,13 @@ android {
 sonarqube {
     sonarqube {
         properties {
-            property "sonar.projectName", "MyProject"
-            property "sonar.projectKey", "com.example.myproject"
+            property "sonar.projectName", "AutomationDemoSample"
+            property "sonar.projectKey", "com.example.admatic_51.emptytemplate"
             property "sonar.host.url", "http://localhost:9000"
             property "sonar.language", "java"
             property "sonar.sources", "src/main/"
-            property "sonar.login", "username"
-            property "sonar.password", "password"
+            property "sonar.login", "admin"
+            property "sonar.password", "admin"
         }
     }
 }
