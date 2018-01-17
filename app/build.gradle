@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: "org.sonarqube"
 
 android {
     compileSdkVersion 26
@@ -17,7 +18,17 @@ android {
         }
     }
 }
-
+sonarqube {
+    properties {
+        property "sonar.projectName", "SampleAutomationDemo"
+        property "sonar.projectKey", "68f750e52092769aa5c0f83910574e7e043e1816"
+        property "sonar.host.url", "https://localhost:9000"
+        property "sonar.language", "java"
+        property "sonar.sources", "src/main/"
+        property "sonar.login", "admin"
+        property "sonar.password", "admin"
+    }
+}
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
