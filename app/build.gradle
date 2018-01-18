@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: "org.sonarqube"
 
 android {
     compileSdkVersion 26
@@ -18,19 +17,7 @@ android {
         }
     }
 }
-sonarqube {
-    sonarqube {
-        properties {
-            property "sonar.projectName", "AutomationDemoSample"
-            property "sonar.projectKey", "com.example.admatic_51.emptytemplate"
-            property "sonar.host.url", "http://localhost:9000"
-            property "sonar.language", "java"
-            property "sonar.sources", "src/main/"
-            property "sonar.login", "admin"
-            property "sonar.password", "admin"
-        }
-    }
-}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
