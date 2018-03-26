@@ -7,6 +7,10 @@ pipeline {
       }
     }
     stage('Test') {
+      agent any
+      environment {
+        CI = 'true'
+      }
       steps {
         echo 'Testing'
       }
