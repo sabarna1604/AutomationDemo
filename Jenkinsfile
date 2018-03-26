@@ -6,5 +6,10 @@ pipeline {
         echo 'App Build successfully'
       }
     }
+    stage('Test') {
+      steps {
+        echo 'Testing'
+      }
+    }
   }
 }
